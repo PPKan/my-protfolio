@@ -7,3 +7,21 @@
   width: 100rem;
 
 }
+
+@media (max-width: 100rem) {
+  .project-item {
+    width: 80rem;
+  }
+}
+
+@media (max-width: 80rem) {
+  .project-item {
+    width: 60rem;
+  }
+}
+
+@media (max-width: 60rem) {
+  .project-item {
+    width: 40rem;
+  }
+}

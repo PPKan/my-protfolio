@@ -1,0 +1,53 @@
+.personal-info {
+  display: flex;
+  background: $teal-green;
+  padding: 2rem;
+
+  .head-section {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    font-size: 2.5rem;
+    padding-top: 2rem;
+    letter-spacing: 0.5rem;
+    writing-mode: vertical-lr;
+    color: $spear-mint;
+    font-weight: 300;
+  }
+
+  .personal-info-content {
+    
+    background: $spear-mint;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    flex: 4;
+    color: $teal-green;
+
+    .name {
+      font-weight: bold;
+      font-size: 2rem;
+      padding-bottom: 1rem;
+    }
+    
+    .introduction {
+      padding-left: 1rem;
+      font-size: 1.25rem;
+      padding-bottom: 1rem;
+    }
+    
+    .subtitle {
+      font-size: 1.5rem;
+      padding-bottom: 1rem;
+    }
+
+    .icon-list {
+      display: flex;
+      list-style-type: none;
+      gap: 1rem;
+    }
+
+    img {
+      height: 5rem;
+    }
+  }
+}

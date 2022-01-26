@@ -1,0 +1,12 @@
+$teal-green: #167d7f;
+$forest-green: #10564f;
+$spear-mint: #b6e2d3;
+
+@import './reset.css';
+@import './navbar.scss';
+@import './font.scss';
+
+
+html {
+  font-family: Noto Sans TC, Microsoft Jhenghei;
+}

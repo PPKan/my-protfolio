@@ -1,8 +1,13 @@
-import '../css/app.scss';
+import "../css/app.scss";
+import Navbar from "./Navbar";
+import PersonalInfo from "./PersonalInfo";
 
 function App() {
   return (
-    <h1>Hello World</h1>
+    <>
+      <Navbar />
+      <PersonalInfo />
+    </>
   );
 }
 

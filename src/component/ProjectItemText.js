@@ -1,5 +1,4 @@
 import React from "react";
-import reactIcon from "../images/react.svg";
 
 export default function ProjectItemText(props) {
   const {

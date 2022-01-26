@@ -1,8 +1,13 @@
 import React from "react";
 
-export default function Navbar({ personalInfoRef, projectsRef, contactRef }) {
+export default function Navbar({
+  navbarRef,
+  personalInfoRef,
+  projectsRef,
+  contactRef,
+}) {
   return (
-    <div className="navbar">
+    <div className="bar" ref={navbarRef}>
       <ul className="list-container">
         <li>
           <button

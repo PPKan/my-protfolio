@@ -6,7 +6,7 @@ export default function Contact({contactRef}) {
       <div className="info-container">
         <h1 className="head-section">聯絡方式</h1>
         <div className="info-content">
-          <div className="name title">如有興趣，歡迎與我聯繫！</div>
+          <div className="name title">求職中，如有興趣，歡迎直接與我聯繫！</div>
           <div className="introduction large-font">
             <ul className="contact-resource">
               <li>E-mail</li>

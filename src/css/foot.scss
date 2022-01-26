@@ -1,0 +1,30 @@
+.foot {
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .credit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: $teal-green;
+    font-weight: bold;
+  }
+
+  img {
+    height: 2rem;
+  }
+
+  a {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: $teal-green;
+  }
+
+  .list-container {
+  }
+}

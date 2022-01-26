@@ -9,12 +9,12 @@ import rubyIcon from "../images/ruby.svg";
 import illustratorIcon from "../images/illustrator.svg";
 import indesignIcon from "../images/indesign.svg";
 
-export default function PersonalInfo() {
+export default function PersonalInfo({personalInfoRef}) {
   return (
-    <div className="personal-info">
-      <div className="personal-info-container">
+    <div className="info personal" ref={personalInfoRef}>
+      <div className="info-container">
         <h1 className="head-section">個人簡介</h1>
-        <div className="personal-info-content">
+        <div className="info-content">
           <div className="name title">甘定中 Peter Kan</div>
           <div className="introduction">
             曾於日本網頁公司實習，並具近一年產品經理經驗。

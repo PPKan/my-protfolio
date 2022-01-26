@@ -12,7 +12,7 @@ export default function ProjectItemText(props) {
       <div className="title-container">
         <h2 className="title">{name}</h2>
         {icons.map(icon => {
-          return <img className="icon" src={icon} alt="react icon" />
+          return <img key={icon} className="icon" src={icon} alt="react icon" />
         })}
       </div>
       <div className="text">

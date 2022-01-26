@@ -10,14 +10,12 @@ export default function ProjectItem({ projects }) {
         counter.current += 1;
         if (counter.current % 2 === 1) {
           return (
-            <div className="project-item">
+            <div key={project.id} className="project-item">
               <ProjectItemImage
-                key={project.id}
                 image={project.image}
                 link={project.link}
               />
               <ProjectItemText
-                key={project.id}
                 name={project.name}
                 content={project.content}
                 icons={project.icons}
@@ -26,15 +24,13 @@ export default function ProjectItem({ projects }) {
           );
         } else {
           return (
-            <div className="project-item">
+            <div key={project.id} className="project-item">
               <ProjectItemText
-                key={project.id}
                 name={project.name}
                 content={project.content}
                 icons={project.icons}
               />
               <ProjectItemImage
-                key={project.id}
                 image={project.image}
                 link={project.link}
               />

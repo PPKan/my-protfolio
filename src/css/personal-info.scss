@@ -1,11 +1,11 @@
-.personal-info {
+.info {
   display: flex;
   justify-content: center;
   align-items: center;
   background: $teal-green;
   padding: 2rem;
   
-  .personal-info-container {
+  .info-container {
     display: flex;
     justify-content: center;
     width: 80rem;
@@ -22,7 +22,7 @@
       font-weight: 300;
     }
 
-    .personal-info-content {
+    .info-content {
       background: $spear-mint;
       border-radius: 1.5rem;
       padding: 2rem;

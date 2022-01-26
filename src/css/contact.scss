@@ -1,0 +1,30 @@
+.contact {
+  .large-font {
+    padding-bottom: 0 !important;
+    font-size: 1.5rem !important;
+  }
+  .introduction {
+    display: flex;
+    gap: 2rem;
+    line-height: 3rem;
+    li {
+      list-style-type: none;
+    }
+    ul {
+      padding: 0;
+    }
+  }
+
+  .contact-resource {
+    grid-area: resource;
+    font-weight: bold;
+  }
+
+  .contact-info {
+    grid-area: info;
+    a {
+      text-decoration: underline;
+      color: inherit;
+    }
+  }
+}

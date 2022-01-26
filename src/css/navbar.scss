@@ -18,6 +18,13 @@
 
     li {
       list-style-type: none;
+
+      button {
+        background: none;
+        border: none;
+        color: inherit;
+        cursor: pointer;
+      }
     }
   }
 }

@@ -1,70 +1,74 @@
 .personal-info {
   display: flex;
+  justify-content: center;
+  align-items: center;
   background: $teal-green;
   padding: 2rem;
-
-  .head-section {
-    flex: 1;
+  
+  .personal-info-container {
     display: flex;
-    align-items: center;
-    font-size: 2.5rem;
-    margin-left: 8rem;
-    padding: 2rem;
-    letter-spacing: 0.5rem;
-    writing-mode: vertical-lr;
-    color: $spear-mint;
-    font-weight: 300;
-  }
+    justify-content: center;
+    width: 80rem;
 
-  .personal-info-content {
-    
-    background: $spear-mint;
-    border-radius: 1.5rem;
-    padding: 2rem;
-    min-width: 40rem;
-    margin-right: 20rem;
-    flex: 4;
-    color: $teal-green;
-
-    .name {
-      font-weight: bold;
-      font-size: 2rem;
-      padding-bottom: 1rem;
-    }
-    
-    .introduction {
-      padding-left: 1rem;
-      font-size: 1.25rem;
-      padding-bottom: 1rem;
-    }
-    
-    .subtitle {
-      font-size: 1.5rem;
-      padding-bottom: 1rem;
-    }
-
-    .icon-list {
+    .head-section {
+      flex: 1;
       display: flex;
-      list-style-type: none;
-      gap: 1rem;
-    
-      .icon {
-        height: 5rem;
-      }
+      align-items: center;
+      font-size: 2.5rem;
+      padding: 2rem;
+      letter-spacing: 0.5rem;
+      writing-mode: vertical-lr;
+      color: $spear-mint;
+      font-weight: 300;
     }
 
-    .language-container {
-      display: grid;
-      place-items: center;
-      font-weight: bold;
-      
-      .language {
+    .personal-info-content {
+      background: $spear-mint;
+      border-radius: 1.5rem;
+      padding: 2rem;
+      flex: 4;
+      color: $teal-green;
+
+      .name {
+        font-weight: bold;
         font-size: 2rem;
+        padding-bottom: 1rem;
       }
 
-      .test-result {
+      .introduction {
+        padding-left: 1rem;
+        font-size: 1.25rem;
+        padding-bottom: 1rem;
+      }
+
+      .subtitle {
         font-size: 1.5rem;
+        padding-bottom: 1rem;
+      }
+
+      .icon-list {
+        display: flex;
+        list-style-type: none;
+        gap: 1rem;
+      }
+
+      .language-container {
+        display: grid;
+        place-items: center;
+        font-weight: bold;
+
+        .language {
+          font-size: 2rem;
+        }
+
+        .test-result {
+          font-size: 1.5rem;
+        }
       }
     }
   }
+}
+
+.icon {
+  height: 5rem;
 }

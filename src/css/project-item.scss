@@ -1,0 +1,9 @@
+@import './project-item-text.scss';
+@import './project-item-image.scss';
+
+.project-item {
+  display: flex;
+  gap: 5rem;
+  width: 100rem;
+
+}

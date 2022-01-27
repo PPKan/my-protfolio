@@ -26,7 +26,7 @@ const sampleProjects = [
     name: "專案一 購物車",
     icons: [reactIcon, nodejsIcon],
     content:
-      "於伺服器架構購物車，並提供後台介面新增與刪除資料。\n-使用者瀏覽體驗佳，易於瀏覽與新增商品\n-後台使用介面清楚，方便賣家上架物品",
+      "於伺服器架構購物車，並提供後台介面新增與刪除資料。\n✔ 使用者瀏覽體驗佳，易於瀏覽與新增商品\n✔ 後台使用介面清楚，方便賣家上架物品",
     image: shoppingCartImage,
     link: "https://nervous-wright-29777b.netlify.app",
   },
@@ -35,7 +35,7 @@ const sampleProjects = [
     name: "專案二 圖片搜尋引擎",
     icons: [reactIcon],
     content:
-      "以圖片網站API為基礎，擷取各網站資料，並顯示於頁面上。\n-使用tab區分各個頁面，維持頁面乾淨 \n-圖片載入迅速，於當下即GET完畢資料",
+      "以圖片網站API為基礎，擷取各網站資料，並顯示於頁面上。\n✔ 使用tab區分各個頁面，維持頁面乾淨 \n✔ 圖片載入迅速，於當下即GET完畢資料",
     image: imageSeracherImage,
     link: "https://serene-golick-535c81.netlify.app/",
   },
@@ -44,7 +44,7 @@ const sampleProjects = [
     name: "專案三 個人履歷",
     icons: [reactIcon],
     content:
-      "自行繪製設計稿作為基礎，並依稿件完成切版，並加上特效。\n-分層清楚，結構明瞭\n-動畫吸睛卻不使人難以閱讀。",
+      "自行繪製設計稿作為基礎，並依稿件完成切版，並加上特效。\n✔ 分層清楚，結構明瞭\n✔ 動畫吸睛卻不使人難以閱讀。",
     image: portfolioImage,
     link: "https://gallant-nightingale-078fd5.netlify.app",
   },
@@ -53,7 +53,7 @@ const sampleProjects = [
     name: "其他專案",
     icons: [javascriptIcon, rubyIcon],
     content:
-      "-JavaScript/CSS/HTML製作的計算機\n-Ruby製作的終端機圈圈叉叉遊戲\n-Ruby製作的終端機猜單字遊戲",
+      "✔ JavaScript/CSS/HTML製作的計算機\n✔ Ruby製作的終端機圈圈叉叉遊戲\n✔ Ruby製作的終端機猜單字遊戲",
     image: calculatorImage,
     link: "https://linkby.tw/petervsjim",
   },

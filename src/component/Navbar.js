@@ -7,7 +7,7 @@ export default function Navbar({
   contactRef,
 }) {
   return (
-    <div className="bar" ref={navbarRef}>
+    <div className="navbar bar" ref={navbarRef}>
       <ul className="list-container">
         <li>
           <button

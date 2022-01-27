@@ -37,6 +37,7 @@
       font-weight: bold;
       border: 0;
       cursor: pointer;
+      transition: background 0.2s ease-in-out;
     }
 
     .demo-button:hover {
@@ -50,5 +51,6 @@
       height: 3.5rem;
 
     }
+
   }
 }

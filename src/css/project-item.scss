@@ -8,6 +8,26 @@
 
 }
 
+.project-item:nth-child(odd) {
+  transform: translateX(-50%);
+  opacity: 0;
+}
+
+.project-item:nth-child(even) {
+  transform: translateX(50%);
+  opacity: 0;
+}
+
+.project-item {
+  transition: opacity 200ms ease-in , transform 700ms ease-in;
+}
+
+.project-item.slide-in {
+  transform: translate(0);
+  opacity: 1;
+}
+
+
 @media (max-width: 100rem) {
   .project-item {
     width: 80rem;

@@ -1,6 +1,7 @@
 .bar {
   background: $spear-mint;
   height: 4rem;
+
   .list-container {
     margin: 0;
     margin-right: 10rem;
@@ -26,6 +27,14 @@
     }
   }
 }
+
+// .navbar {
+//   position: fixed;
+//   left: 0;
+//   right: 0;
+//   top: 0;
+//   z-index: 999;
+// }
 
 .nav__link {
   position: relative;

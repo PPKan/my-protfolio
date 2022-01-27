@@ -46,7 +46,7 @@ const sampleProjects = [
     content:
       "自行繪製設計稿作為基礎，並依稿件完成切版，並加上特效。\n✔ 分層清楚，結構明瞭\n✔ 動畫吸睛卻不使人難以閱讀。",
     image: portfolioImage,
-    link: "https://gallant-nightingale-078fd5.netlify.app",
+    link: null,
   },
   {
     id: uuidv4(),

@@ -24,9 +24,9 @@ const sampleProjects = [
   {
     id: uuidv4(),
     name: "專案一 購物車",
-    icons: [reactIcon, nodejsIcon],
+    icons: [reactIcon],
     content:
-      "於伺服器架構購物車，並提供後台介面新增與刪除資料。\n✔ 使用者瀏覽體驗佳，易於瀏覽與新增商品\n✔ 後台使用介面清楚，方便賣家上架物品",
+      "使用React架構購物車，提供後台介面新增與刪除資料，並與Local storeage交互。\n✔ 使用者瀏覽體驗佳，易於瀏覽與新增商品\n✔ 後台使用介面清楚，方便賣家上架物品",
     image: shoppingCartImage,
     link: "https://nervous-wright-29777b.netlify.app",
   },

@@ -34,7 +34,7 @@ export default function ProjectItem({ projects }) {
     targetRef.current.forEach((target) => {
       observer.observe(target.current);
     });
-  }, []);
+  }, [options]);
 
   return (
     <>

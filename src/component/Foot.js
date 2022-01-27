@@ -18,6 +18,7 @@ export default function Foot({ navbarRef }) {
       <ul className="list-container">
         <li>
           <button
+            className="nav__link"
             onClick={() => {
               navbarRef.current.scrollIntoView({ behavior: "smooth" });
             }}

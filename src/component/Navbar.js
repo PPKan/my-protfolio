@@ -11,6 +11,7 @@ export default function Navbar({
       <ul className="list-container">
         <li>
           <button
+            className="nav__link"
             onClick={() => {
               personalInfoRef.current.scrollIntoView({ behavior: "smooth" });
             }}
@@ -20,6 +21,7 @@ export default function Navbar({
         </li>
         <li>
           <button
+            className="nav__link"
             onClick={() => {
               projectsRef.current.scrollIntoView({ behavior: "smooth" });
             }}
@@ -29,6 +31,7 @@ export default function Navbar({
         </li>
         <li>
           <button
+            className="nav__link"
             onClick={() => {
               contactRef.current.scrollIntoView({ behavior: "smooth" });
             }}

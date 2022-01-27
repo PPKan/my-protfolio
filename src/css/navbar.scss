@@ -1,9 +1,7 @@
 .bar {
-
   background: $spear-mint;
   height: 4rem;
   .list-container {
-
     margin: 0;
     margin-right: 10rem;
     float: right;
@@ -11,7 +9,7 @@
     gap: 6rem;
     height: 100%;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
     font-weight: bold;
     font-size: 1.5rem;
     color: $teal-green;
@@ -27,4 +25,27 @@
       }
     }
   }
+}
+
+.nav__link {
+  position: relative;
+}
+.nav__link::after {
+  content: "";
+  position: absolute;
+  bottom: -0.125rem;
+  left: 0.4rem;
+  right: 0.4rem;
+  height: 3px;
+  background: $teal-green;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  transition: -webkit-transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out;
+  transition: transform 150ms ease-in-out, -webkit-transform 150ms ease-in-out;
+}
+
+.nav__link:hover::after {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
 }

@@ -12,6 +12,8 @@ import toeicIcon from "../images/toeic.svg"
 import jlptIcon from "../images/jlpt.svg"
 
 export default function PersonalInfo({personalInfoRef}) {
+
+
   return (
     <div className="info personal" ref={personalInfoRef}>
       <div className="info-container">

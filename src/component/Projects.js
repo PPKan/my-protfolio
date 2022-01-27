@@ -10,6 +10,7 @@ import imageSeracherImage from "../images/project-image/image-seracher.jpg";
 import portfolioImage from "../images/project-image/portfolio.jpg";
 import calculatorImage from "../images/project-image/calculator.jpg";
 
+
 export default function projects({ projectsRef }) {
   return (
     <div className="projects" ref={projectsRef}>

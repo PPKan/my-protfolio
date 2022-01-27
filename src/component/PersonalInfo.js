@@ -8,6 +8,8 @@ import pythonIcon from "../images/python.svg";
 import rubyIcon from "../images/ruby.svg";
 import illustratorIcon from "../images/illustrator.svg";
 import indesignIcon from "../images/indesign.svg";
+import toeicIcon from "../images/toeic.svg"
+import jlptIcon from "../images/jlpt.svg"
 
 export default function PersonalInfo({personalInfoRef}) {
   return (
@@ -51,14 +53,20 @@ export default function PersonalInfo({personalInfoRef}) {
             <li>
               <img className="icon" src={indesignIcon} alt="" />
             </li>
-            <div className="language-container">
+            <li>
+              <img className="icon margin-top-add" src={toeicIcon} alt="" />
+            </li>
+            <li>
+              <img className="icon" src={jlptIcon} alt="" />
+            </li>
+            {/* <div className="language-container">
               <div className="language">日語</div>
               <div className="test-result">JLPT N1</div>
             </div>
             <div className="language-container">
               <div className="language">英語</div>
               <div className="test-result">多益850</div>
-            </div>
+            </div> */}
           </ul>
         </div>
       </div>

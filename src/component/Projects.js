@@ -2,7 +2,7 @@ import React from "react";
 import ProjectItem from "./ProjectItem";
 import { v4 as uuidv4 } from "uuid";
 import reactIcon from "../images/react.svg";
-import nodejsIcon from "../images/nodejs.svg";
+// import nodejsIcon from "../images/nodejs.svg";
 import javascriptIcon from "../images/javascript.png";
 import rubyIcon from "../images/ruby.svg";
 import shoppingCartImage from "../images/project-image/shopping-cart.jpg";

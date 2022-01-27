@@ -55,6 +55,6 @@ const sampleProjects = [
     content:
       "-JavaScript/CSS/HTML製作的計算機\n-Ruby製作的終端機圈圈叉叉遊戲\n-Ruby製作的終端機猜單字遊戲",
     image: calculatorImage,
-    link: "https://ppkan.github.io/calculator/",
+    link: "https://linkby.tw/petervsjim",
   },
 ];

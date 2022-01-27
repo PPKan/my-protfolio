@@ -23,8 +23,11 @@
   .contact-info {
     grid-area: info;
     a {
-      text-decoration: underline;
-      color: inherit;
+      text-decoration: none;
+      color: $forest-green;
+    }
+    a:hover {
+      color: $teal-green;
     }
   }
 }

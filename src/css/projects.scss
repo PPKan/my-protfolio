@@ -9,6 +9,8 @@
   color: $spear-mint;
   padding: 2rem;
   gap: 3rem;
+  position: relative;
+  overflow-y: hidden;
   
   .projects-title {
     font-size: 2.5rem;

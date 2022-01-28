@@ -5,9 +5,9 @@ import reactIcon from "../images/react.svg";
 // import nodejsIcon from "../images/nodejs.svg";
 import javascriptIcon from "../images/javascript.png";
 import rubyIcon from "../images/ruby.svg";
-import shoppingCartImage from "../images/project-image/shopping-cart.jpg";
+import shoppingCartImage from "../images/project-image/shopping-cart.png";
 import imageSeracherImage from "../images/project-image/image-seracher.jpg";
-import portfolioImage from "../images/project-image/portfolio.jpg";
+import portfolioImage from "../images/project-image/portfolio.png";
 import calculatorImage from "../images/project-image/calculator.jpg";
 
 

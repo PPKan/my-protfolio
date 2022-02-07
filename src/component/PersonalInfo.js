@@ -61,14 +61,6 @@ export default function PersonalInfo({personalInfoRef}) {
             <li>
               <img className="icon" src={jlptIcon} alt="" />
             </li>
-            {/* <div className="language-container">
-              <div className="language">日語</div>
-              <div className="test-result">JLPT N1</div>
-            </div>
-            <div className="language-container">
-              <div className="language">英語</div>
-              <div className="test-result">多益850</div>
-            </div> */}
           </ul>
         </div>
       </div>

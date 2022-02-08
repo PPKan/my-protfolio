@@ -10,6 +10,7 @@ export default function ProjectItem({ projects }) {
     React.createRef(),
     React.createRef(),
     React.createRef(),
+    React.createRef(),
   ]);
 
   const options = useMemo(() => {

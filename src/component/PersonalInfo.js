@@ -1,6 +1,5 @@
 import React from "react";
 import reactIcon from "../images/react.svg";
-import javascriptIcon from "../images/javascript.png";
 import cssIcon from "../images/css.svg";
 import htmlIcon from "../images/html5.svg";
 import javaIcon from "../images/java.png";
@@ -10,6 +9,7 @@ import illustratorIcon from "../images/illustrator.svg";
 import indesignIcon from "../images/indesign.svg";
 import toeicIcon from "../images/toeic.svg"
 import jlptIcon from "../images/jlpt.svg"
+import typescriptIcon from "../images/typescript.svg"
 
 export default function PersonalInfo({personalInfoRef}) {
 
@@ -29,7 +29,7 @@ export default function PersonalInfo({personalInfoRef}) {
               <img className="icon" src={reactIcon} alt="" />
             </li>
             <li>
-              <img className="icon" src={javascriptIcon} alt="" />
+              <img className="icon" src={typescriptIcon} alt="" />
             </li>
             <li>
               <img className="icon" src={cssIcon} alt="" />

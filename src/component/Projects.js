@@ -5,10 +5,13 @@ import reactIcon from "../images/react.svg";
 // import nodejsIcon from "../images/nodejs.svg";
 import javascriptIcon from "../images/javascript.png";
 import rubyIcon from "../images/ruby.svg";
+import typescriptIcon from "../images/typescript.svg"
+import materialuiIcon from "../images/materialui.png";
 import shoppingCartImage from "../images/project-image/shopping-cart.png";
 import imageSeracherImage from "../images/project-image/image-seracher.jpg";
 import portfolioImage from "../images/project-image/portfolio.png";
 import calculatorImage from "../images/project-image/calculator.jpg";
+import metronomeImage from "../images/project-image/metronome.jpg"
 
 
 export default function projects({ projectsRef }) {
@@ -41,7 +44,16 @@ const sampleProjects = [
   },
   {
     id: uuidv4(),
-    name: "專案三 個人履歷",
+    name: "專案三 節拍器",
+    icons: [reactIcon, typescriptIcon, materialuiIcon],
+    content:
+      "採用拖曳條與按鈕雙重設計的節拍器\n✔ 手機、平板相容\n✔ 節奏穩定，操作方便\n⚠ iOS safari 尚未支援",
+    image: metronomeImage,
+    link: "https://stupefied-knuth-9beb12.netlify.app/",
+  },
+  {
+    id: uuidv4(),
+    name: "專案四 個人履歷",
     icons: [reactIcon],
     content:
       "自行繪製設計稿作為基礎，並依稿件完成切版，並加上特效。\n✔ 分層清楚，結構明瞭\n✔ 動畫吸睛卻不使人難以閱讀。",
